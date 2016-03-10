@@ -49,7 +49,7 @@ attendees[2]
 ​
 /* Write a statement which sorts the array. */
 ​
-console.log (attendees)
+attendees.sort()
 ​
 /* Write a statement which removes the last
  element of the array. */
@@ -87,7 +87,7 @@ console.log("Computers are fun, \nBecause they are neat. \nJavascript and Ruby,\
  inside loops to "see" the values change. */
 ​
 var isDone = "no";
-while (isDone === null) {
+while (isDone === "no") {
     isDone = prompt("Are you done?");
 }
 ​
@@ -97,10 +97,9 @@ while (isDone === null) {
  is entered. */
 ​
 var isDone = "no";
-while (isDone === null) {
+while ((isDone === "no") || (isDone === "No")){
     isDone = prompt("Are you done?");
 }
-​
 ​
 ​
 /* Explain to each other in English what this statement

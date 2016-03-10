@@ -45,7 +45,17 @@ allPossibleSums();
 
 
 //
+var bicycle = {
+  gears : [1,2,3,4],
+  pedalsFrequency : rpm;
+}
 
+var arr = [1,2,3]
+var person = {
+  firstName : John,
+  lastName : Williams,
+  age : 23,
+}
 
-
+console.log (firstName.)
 
